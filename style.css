@@ -234,3 +234,39 @@ section{
 ::-webkit-scrollbar-track{
     background-color: var(--bg-color);
 }
+/* ADD THIS */
+
+.skills-container{
+    margin-top: 3rem;
+}
+
+.skills-container h3{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+}
+
+.skills-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.skill-tag{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background: linear-gradient(
+        270deg,
+        #98fb98 10%,
+        #ffc0cb 100%
+    );
+    color: #080808;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.skill-tag:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px var(--main-color);
+}
