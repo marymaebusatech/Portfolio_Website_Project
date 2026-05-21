@@ -270,3 +270,14 @@ section{
     transform: scale(1.1);
     box-shadow: 0 0 15px var(--main-color);
 }
+
+.projects{
+    background-color: var(--second-bg-color);
+}
+.projects-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (350px, 1fr));
+    place-items: center;
+    gap: 3rem;
+    row-gap: 5rem;
+}
