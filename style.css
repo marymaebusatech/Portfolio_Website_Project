@@ -302,3 +302,8 @@ section{
                 0 0 50px var(--main-color);
     transform: scale(1.02);
 }
+.project-card img{
+    max-width: 300px;
+    border-radius: 2em;
+    object-fit: cover;
+}
