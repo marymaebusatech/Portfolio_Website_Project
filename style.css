@@ -76,7 +76,7 @@ span {
 }
 
 .gradient-btn {
-    font-size: 1.8rem
+    font-size: 1.8rem;
     padding: 1rem 2rem;
     border-radius: 3rem;
     background: linear-gradient(
@@ -320,6 +320,12 @@ section{
 .contact h2{
     margin-bottom: 3rem;
     color: var(--text-color);
+    text-align: center;
+}
+.heading{
+    font-size: 7rem;
+    text-align: center;
+    margin-bottom: 5rem;
 }
 .contact form{
     display: flex;
